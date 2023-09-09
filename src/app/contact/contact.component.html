@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="d-flex flex-column gap-3  pt-5 mt-5">
+    <h2 class="text-uppercase fw-bolder fs-1 text-center clr pt-4">CONATCT SECTION</h2>
+    <div class="d-flex gap-3 m-auto">
+      <p class="line text-center p-1"></p>
+      <i class="fa-solid fa-star clr align-baseline"></i>
+      <p class="line text-center p-1"></p>
+
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="border-bottom mb-4 overflow-hidden  position-relative">
+        <input (keyup)="change()" type="text" class="form-control item bg-white shadow-none border-0 pt-4" placeholder="userName">
+        <span class="position-absolute layer">userName :</span>
+      </div>
+      <div class="border-bottom mb-4 overflow-hidden position-relative">
+        <input (keyup)="change2()" type="number" class="form-control item2 bg-white shadow-none border-0 pt-4" placeholder="userAge">
+        <span class="position-absolute layer2">userAge :</span>
+      </div>
+      <div class="border-bottom mb-4 overflow-hidden  position-relative">
+        <input (keyup)="change3()" type="text" class="form-control item3 bg-white shadow-none border-0 pt-4" placeholder="userEmail">
+        <span class="position-absolute layer3">userEmail :</span>
+      </div>
+      <div class="border-bottom mb-4 overflow-hidden  position-relative">
+        <input (keyup)="change4()" type="password" class="form-control item4 bg-white shadow-none border-0 pt-4" placeholder="userPassword">
+        <span class="position-absolute layer4">userPassword :</span>
+      </div>
+    </div>
+  </div>
+</div>

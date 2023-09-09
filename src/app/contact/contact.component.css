@@ -1,0 +1,19 @@
+.line{
+  border-bottom: 4px solid #2C3E50;
+  width: 80px;
+}
+.clr{
+color: #2C3E50;
+}
+.layer,.layer2,.layer3,.layer4{
+  top: 40px;
+  left: 10px;
+  color: #fff;
+  transition: top 0.5s;
+}
+
+/* .item:hover .layer{
+  top: 0;
+  color: rgb(39, 190, 224) !important;
+
+} */
